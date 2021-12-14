@@ -1,9 +1,0 @@
-<mvc:View
-    controllerName="nest.controller.Parent"
-    xmlns:mvc="sap.ui.core.mvc"
-    xmlns:m="sap.m"
-    height="100%">
-
-    <m:Page id="page" title="Parent Page" />
-
-</mvc:View>

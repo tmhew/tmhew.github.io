@@ -1,7 +1,0 @@
-<mvc:View
-    xmlns:mvc="sap.ui.core.mvc"
-    xmlns:m="sap.m">
-
-    <m:Page title="Child Page" />
-
-</mvc:View>
