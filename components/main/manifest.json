@@ -27,7 +27,14 @@
       }
     },
     "models": {
-    
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "com.tmhew.components.main.i18n.i18n",
+          "supportedLocales": ["en_US"],
+          "fallbackLocale": "en_US"
+        }
+      }
     },
     "rootView": {
       "viewName": "com.tmhew.components.main.view.Index",
