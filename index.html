@@ -16,5 +16,16 @@
   </script>
 </head>
 <body id="content" class="sapUiBody">
+  <script>
+    sap.ui.getCore().attachInit(() => {
+      sap.ui.define([
+        'sap/m/Text'
+      ], (Text) => {
+        new Text({
+          text: 'Hello'
+        }).placeAt('content')
+      })
+    })
+  </script>
 </body>
 </html>
