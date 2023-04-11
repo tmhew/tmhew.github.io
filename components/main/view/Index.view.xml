@@ -1,12 +1,26 @@
 <mvc:View
+  height="100%"
   xmlns:mvc="sap.ui.core.mvc"
-  xmlns:m="sap.m">
-  <m:Page title="{i18n>indexPageTitle}">
-    <m:content>
-      <m:Text
-        class="sapUiResponsiveMargin"
-        width="auto"
-        text="{i18n>indexDescription}" />
-    </m:content>
-  </m:Page>
+  xmlns:m="sap.m"
+  xmlns:core="sap.ui.core"
+  xmlns="sap.uxap">
+  
+  <ObjectPageLayout
+    showTitleInHeaderContent="false"
+    upperCaseAnchorBar="false">
+    
+    <headerContent>
+      <m:HeaderContainer scrollStep="200" showDividers="false">
+        <m:HBox class="sapUiSmallMarginEnd sapUiSmallMarginBottom">
+          <m:Text text="{i18n>indexPageTitle}" class="sapUiMediumMarginEnd sapUiSmallMarginBottom" />
+        </m:HBox>
+        
+        <m:VBox class="sapUiSmallMarginEnd sapUiSmallMarginBottom">
+          <m:Title text="About Me" class="sapUiTinyMarginBottom" />
+          <m:Text width="320px" text="{i18n>indexDescription}"/>
+        </m:VBox>
+      </m:HeaderContainer>
+    </headerContent>
+    
+  </ObjectPageLayout>
 </mvc:View>
