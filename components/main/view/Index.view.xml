@@ -1,9 +1,12 @@
 <mvc:View
+  height="100%"
   xmlns:mvc="sap.ui.core.mvc"
   xmlns:m="sap.m">
   <m:Page>
     <m:content>
-      <m:Text text="{i18n>asciiEmojiFlipTable}" />
+      <m:Text
+        class="sapUiContentPadding"
+        text="{i18n>asciiEmojiFlipTable}" />
     </m:content>
   </m:Page>
 </mvc:View>
