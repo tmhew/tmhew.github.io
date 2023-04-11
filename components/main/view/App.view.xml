@@ -1,5 +1,7 @@
 <mvc:View
+  displayBlock="true"
   xmlns:mvc="sap.ui.core.mvc"
   xmlns:m="sap.m">
-  <m:App id="app"></m:App>
+  <m:App id="app">
+  </m:App>
 </mvc:View>
