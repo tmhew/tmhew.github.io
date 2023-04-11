@@ -1,8 +1,12 @@
 <mvc:View
   xmlns:mvc="sap.ui.core.mvc"
   xmlns:m="sap.m">
-  <m:Text
-    class="sapUiResponsiveMargin"
-    width="auto"
-    text="{i18n>asciiEmojiFlipTable}" />
+  <m:Page title="{i18n>indexPageTitle}">
+    <m:content>
+      <m:Text
+        class="sapUiResponsiveMargin"
+        width="auto"
+        text="{i18n>indexDescription}" />
+    </m:content>
+  </m:Page>
 </mvc:View>
