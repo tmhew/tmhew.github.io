@@ -37,7 +37,7 @@
       }
     },
     "rootView": {
-      "viewName": "com.tmhew.components.main.view.Index",
+      "viewName": "com.tmhew.components.main.view.App",
       "type": "XML"
     }
   }
