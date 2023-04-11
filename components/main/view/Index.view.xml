@@ -3,7 +3,7 @@
   xmlns:m="sap.m">
   <m:Page>
     <m:content>
-      
+      <m:Text text="{i18n>asciiEmojiFlipTable}" />
     </m:content>
   </m:Page>
 </mvc:View>
