@@ -11,22 +11,15 @@
     src="https://sdk.openui5.org/1.112.0/resources/sap-ui-core.js"
     data-sap-ui-compatVersion="edge"
     data-sap-ui-async="true"
+    data-sap-ui-oninit="module:sap/ui/core/ComponentSupport"
     data-sap-ui-theme="sap_horizon_dark"
-    data-sap-ui-libs="sap.m"
     data-sap-ui-resourceroots='{"com.tmhew": "./"}'>
   </script>
 </head>
 <body id="content" class="sapUiBody">
-  <script>
-    sap.ui.getCore().attachInit(() => {
-      sap.ui.define([
-        'sap/m/Text'
-      ], (Text) => {
-        new Text({
-          text: 'Hello'
-        }).placeAt('content')
-      })
-    })
-  </script>
+  <div data-sap-ui-component 
+    data-name="com.tmhew" 
+    data-settings='{"id" : "index"}'>
+  </div>
 </body>
 </html>
