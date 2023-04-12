@@ -1,0 +1,12 @@
+<mvc:View
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:m="sap.m"
+  xmlns:uxap="sap.uxap">
+  
+  <uxap:ObjectPageLayout
+    showTitleInHeaderContent="false"
+    showEditHeaderButton="false">
+  
+  </uxap:ObjectPageLayout>
+  
+</mvc:View>
