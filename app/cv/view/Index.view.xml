@@ -8,9 +8,11 @@
     showTitleInHeaderContent="false"
     showEditHeaderButton="false">
     <uxap:headerTitle>
-      <uxap:actions>
-        <m:Button icon="sap-icon://light-mode" tooltip="Light mode"/>
-      </uxap:actions>
+      <uxap:ObjectPageDynamicHeaderTitle>
+        <uxap:actions>
+          <m:Button icon="sap-icon://light-mode" tooltip="Light mode"/>
+        </uxap:actions>
+      </uxap:ObjectPageDynamicHeaderTitle>
     </uxap:headerTitle>
   
   </uxap:ObjectPageLayout>
