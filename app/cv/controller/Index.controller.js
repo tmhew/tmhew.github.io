@@ -18,5 +18,9 @@ sap.ui.define([
         window.open('https://github.com/tmhew/tmhew.github.io', '_blank')
     }
 
+    _Controller.prototype.onContactMePressed = function () {
+        window.open('https://www.linkedin.com/in/tau-ming-hew-02820327/', '_blank')
+    }
+
     return _Controller
 })
