@@ -8,7 +8,8 @@
   <m:Shell>
     <uxap:ObjectPageLayout
       showTitleInHeaderContent="false"
-      showEditHeaderButton="false">
+      showEditHeaderButton="false"
+      showFooter="true">
       <uxap:headerTitle>
         <uxap:ObjectPageDynamicHeaderTitle>
           <uxap:actions>
