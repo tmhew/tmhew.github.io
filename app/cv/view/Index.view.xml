@@ -1,4 +1,5 @@
 <mvc:View
+  height="100%"
   xmlns:mvc="sap.ui.core.mvc"
   xmlns:m="sap.m"
   xmlns:uxap="sap.uxap">
@@ -6,6 +7,11 @@
   <uxap:ObjectPageLayout
     showTitleInHeaderContent="false"
     showEditHeaderButton="false">
+    <uxap:headerTitle>
+      <uxap:actions>
+        <m:Button icon="sap-icon://light-mode" tooltip="Light mode"/>
+      </uxap:actions>
+    </uxap:headerTitle>
   
   </uxap:ObjectPageLayout>
   
