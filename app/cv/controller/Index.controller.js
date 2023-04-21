@@ -4,7 +4,7 @@ sap.ui.define([
     const _Controller = Controller.extend('com.tmhew.app.cv.controller.Index')
 
     _Controller.prototype.onThemeButtonPressed = function (event) {
-        console.log(event)
+        console.log(event.getSource())
     }
 
     return _Controller
