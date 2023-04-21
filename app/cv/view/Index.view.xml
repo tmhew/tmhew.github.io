@@ -1,20 +1,24 @@
 <mvc:View
   height="100%"
+  controllerName="com.tmhew.app.cv.controller.Index"
   xmlns:mvc="sap.ui.core.mvc"
   xmlns:m="sap.m"
   xmlns:uxap="sap.uxap">
   
-  <uxap:ObjectPageLayout
-    showTitleInHeaderContent="false"
-    showEditHeaderButton="false">
-    <uxap:headerTitle>
-      <uxap:ObjectPageDynamicHeaderTitle>
-        <uxap:actions>
-          <m:Button icon="sap-icon://light-mode" tooltip="Light mode"/>
-        </uxap:actions>
-      </uxap:ObjectPageDynamicHeaderTitle>
-    </uxap:headerTitle>
-  
-  </uxap:ObjectPageLayout>
+  <m:Shell>
+    <uxap:ObjectPageLayout
+      showTitleInHeaderContent="false"
+      showEditHeaderButton="false">
+      <uxap:headerTitle>
+        <uxap:ObjectPageDynamicHeaderTitle>
+          <uxap:actions>
+            <m:Button icon="sap-icon://syntax" tooltip="Source code" press=""/>
+            <m:Button icon="sap-icon://light-mode" tooltip="Light mode" press=".onThemeButtonPressed"/>
+          </uxap:actions>
+        </uxap:ObjectPageDynamicHeaderTitle>
+      </uxap:headerTitle>
+    
+    </uxap:ObjectPageLayout>
+  </m:Shell>
   
 </mvc:View>

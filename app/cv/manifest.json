@@ -36,31 +36,8 @@
       }
     },
     "rootView": {
-      "viewName": "com.tmhew.app.cv.view.App",
+      "viewName": "com.tmhew.app.cv.view.Index",
       "type": "XML"
-    },
-    "routing": {
-      "config": {
-        "routerClass": "sap.m.routing.Router",
-        "type": "View",
-        "viewType": "XML",
-        "path": "com.tmhew.app.cv.view",
-        "controlId": "app",
-        "controlAggregation": "pages"
-      },
-      "routes": [
-        {
-          "pattern": "",
-          "name": "index",
-          "target": "index"
-        }
-      ],
-      "targets": {
-        "index": {
-          "id": "index",
-          "name": "Index"
-        }
-      }
     }
   }
 }
