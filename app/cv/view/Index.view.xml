@@ -11,12 +11,13 @@
       <uxap:headerTitle>
         <uxap:ObjectPageDynamicHeaderTitle>
           <uxap:expandedHeading>
-            <m:Title text="Tau Ming, Hew" wrapping="true" />
+            <m:HBox>
+              <m:VBox>
+                <m:Title text="Tau Ming Hew" wrapping="true" />
+                <m:Label text="丘道明" wrapping="true" /> 
+              </m:VBox>
+            </m:HBox>
           </uxap:expandedHeading>
-          
-          <uxap:snappedHeading>
-            <m:Label text="Tau Ming, Hew" />
-          </uxap:snappedHeading>
 
           <uxap:actions>
             <m:Button icon="sap-icon://business-card" tooltip="Contact me" press=".onContactMePressed" />
