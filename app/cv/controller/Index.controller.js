@@ -7,10 +7,10 @@ sap.ui.define([
         const button = event.getSource()
         if (button.getIcon() === 'sap-icon://light-mode') {
             button.setIcon('sap-icon://dark-mode')
-            sap.ui.getCore().applyTheme('sap_horizon_dark')
+            sap.ui.getCore().applyTheme('sap_horizon')
         } else {
             button.setIcon('sap-icon://light-mode')
-            sap.ui.getCore().applyTheme('sap_horizon')
+            sap.ui.getCore().applyTheme('sap_horizon_dark')
         }
     }
 
