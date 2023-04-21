@@ -14,5 +14,9 @@ sap.ui.define([
         }
     }
 
+    _Controller.prototype.onSourceCodeButtonPressed = function () {
+        window.open('https://github.com/tmhew/tmhew.github.io', '_blank')
+    }
+
     return _Controller
 })

@@ -12,8 +12,8 @@
       <uxap:headerTitle>
         <uxap:ObjectPageDynamicHeaderTitle>
           <uxap:actions>
-            <m:Button icon="sap-icon://syntax" tooltip="Source code" press=""/>
-            <m:Button icon="sap-icon://dark-mode" tooltip="Theme mode" press=".onThemeButtonPressed"/>
+            <m:Button icon="sap-icon://SAP-icons-TNT/github" tooltip="Source" press=".onSourceCodeButtonPressed"/>
+            <m:Button icon="sap-icon://dark-mode" tooltip="Theme" press=".onThemeButtonPressed"/>
           </uxap:actions>
         </uxap:ObjectPageDynamicHeaderTitle>
       </uxap:headerTitle>
