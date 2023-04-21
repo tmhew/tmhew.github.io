@@ -7,11 +7,17 @@
   
   <m:Shell>
     <uxap:ObjectPageLayout
-      showTitleInHeaderContent="false"
-      showEditHeaderButton="false"
       showFooter="true">
       <uxap:headerTitle>
         <uxap:ObjectPageDynamicHeaderTitle>
+          <uxap:expandedHeading>
+            <m:Title text="Tau Ming, Hew" wrapping="true" />
+          </uxap:expandedHeading>
+          
+          <uxap:snappedHeading>
+            <m:Label text="Tau Ming, Hew" />
+          </uxap:snappedHeading>
+
           <uxap:actions>
             <m:Button icon="sap-icon://business-card" tooltip="Contact me" press=".onContactMePressed" />
             <m:Button icon="sap-icon://dark-mode" tooltip="Theme" press=".onThemeButtonPressed" />
