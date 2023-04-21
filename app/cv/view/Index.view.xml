@@ -13,7 +13,7 @@
         <uxap:ObjectPageDynamicHeaderTitle>
           <uxap:actions>
             <m:Button icon="sap-icon://syntax" tooltip="Source code" press=""/>
-            <m:Button icon="sap-icon://light-mode" tooltip="Light mode" press=".onThemeButtonPressed"/>
+            <m:Button icon="sap-icon://dark-mode" tooltip="Theme mode" press=".onThemeButtonPressed"/>
           </uxap:actions>
         </uxap:ObjectPageDynamicHeaderTitle>
       </uxap:headerTitle>
