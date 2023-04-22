@@ -39,7 +39,23 @@
     </uxap:headerTitle>
 
     <uxap:headerContent>
-      <m:ObjectAttribute title="" text="Excels in using complex and expensive tools to do simple tasks."/>
+      <m:FlexBox wrap="Wrap" fitContainer="true">
+        <m:VBox class="sapUiLargeMarginEnd sapUiSmallMarginBottom">
+          <m:Title text="Personal Information" class="sapUiTinyMarginBottom" />
+          <m:HBox class="sapUiTinyMarginBottom">
+						<m:Label text="First name:" class="sapUiTinyMarginEnd"/>
+						<m:Text text=" Tau Ming"/>
+					</m:HBox>
+          <m:HBox class="sapUiTinyMarginBottom">
+						<m:Label text="Last name:" class="sapUiTinyMarginEnd"/>
+						<m:Text text=" Hew"/>
+					</m:HBox>
+          <m:HBox class="sapUiTinyMarginBottom">
+						<core:Icon src="sap-icon://map"/>
+						<m:Link text=" Houston, TX" class="sapUiSmallMarginBegin"/>
+					</m:HBox>
+        </m:VBox>
+      </m:FlexBox>
     </uxap:headerContent>
 
     <uxap:footer>
