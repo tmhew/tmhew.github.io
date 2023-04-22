@@ -21,7 +21,7 @@
                 text="Open to Work" 
                 state="Success" 
                 inverted="true" 
-                class="sapUiSmallMarginBottom"/>
+                class="sapUiSmallMarginTop sapUiSmallMarginBottom"/>
             </m:VBox>
           </m:HBox>
         </uxap:snappedHeading>
