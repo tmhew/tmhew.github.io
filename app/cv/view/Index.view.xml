@@ -52,10 +52,7 @@
         <uxap:ObjectPageSection title="Employment" id="employment" titleUppercase="false">
           <uxap:subSections>
             <uxap:ObjectPageSubSection title="Current" id="employmentCurrent" titleUppercase="false">
-              <m:Label text="Utegration" />
-            </uxap:ObjectPageSubSection>
-            <uxap:ObjectPageSubSection title="Previous" id="employmentPrevious" titleUppercase="false">
-              <m:Label text="Bluefin" />
+              <m:Label text="Utegration" id="utegration" />
             </uxap:ObjectPageSubSection>
           </uxap:subSections>
         </uxap:ObjectPageSection>
