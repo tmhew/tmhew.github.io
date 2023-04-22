@@ -25,6 +25,10 @@
             </m:HBox>
           </uxap:snappedHeading>
 
+          <uxap:actions>
+            <m:Button icon="sap-icon://business-card" text="Get in touch" tooltip="Contact me" press=".onContactMePressed" />
+          </uxap:actions>
+
         </uxap:ObjectPageDynamicHeaderTitle>
       </uxap:headerTitle>
 
@@ -36,7 +40,6 @@
 
       <uxap:footer>
         <m:OverflowToolbar>
-          <m:Button icon="sap-icon://business-card" tooltip="Contact me" press=".onContactMePressed" />
           <m:ToolbarSpacer/>
           <m:Button icon="sap-icon://syntax" tooltip="Source" press=".onSourceCodeButtonPressed" />
           <m:Button icon="sap-icon://dark-mode" tooltip="Theme" press=".onThemeButtonPressed" />
