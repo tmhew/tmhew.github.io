@@ -28,7 +28,7 @@
                   text="SAP Developer" 
                   state="Information" 
                   inverted="true" 
-                  class="sapUiSmallMarginTop sapUiSmallMarginBottom"/>
+                  class="sapUiSmallMarginLeft sapUiSmallMarginTop sapUiSmallMarginBottom"/>
               </m:HBox>
             </m:VBox>
           </m:HBox>
