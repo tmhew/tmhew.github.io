@@ -17,16 +17,18 @@
           <uxap:snappedHeading>
             <m:HBox>
               <m:VBox>
-                <m:Avatar initials="TM" class="sapUiSmallMarginEnd" />
-              </m:VBox>
-              <m:VBox>
                 <m:Title text="Tau Ming" wrapping="true" />
               </m:VBox>
             </m:HBox>
           </uxap:snappedHeading>
 
           <uxap:actions>
-            <m:Button icon="sap-icon://business-card" text="Get in touch" tooltip="Contact me" press=".onContactMePressed" />
+            <m:Button
+              type="Emphasized"
+              icon="sap-icon://business-card" 
+              text="Get in touch" 
+              tooltip="Contact me" 
+              press=".onContactMePressed" />
           </uxap:actions>
 
         </uxap:ObjectPageDynamicHeaderTitle>
@@ -34,7 +36,7 @@
 
       <uxap:headerContent>
         <m:FlexBox wrap="Wrap" fitContainer="true">
-          <m:Avatar initials="HTM" class="sapUiMediumMarginEnd sapUiSmallMarginBottom" displaySize="L"/>
+          
         </m:FlexBox>
       </uxap:headerContent>
 
