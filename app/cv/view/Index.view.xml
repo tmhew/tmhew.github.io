@@ -18,7 +18,11 @@
             <m:HBox>
               <m:VBox>
                 <m:Title text="Tau Ming, Hew" wrapping="true" />
-                <m:ObjectStatus text="Open to Work" state="Success" inverted="true"/>
+                <m:ObjectStatus 
+                  text="Open to Work" 
+                  state="Success" 
+                  inverted="true" 
+                  class="sapUiSmallMarginBottom"/>
               </m:VBox>
             </m:HBox>
           </uxap:snappedHeading>
@@ -27,7 +31,8 @@
             <m:Button
               type="Emphasized"
               icon="sap-icon://business-card" 
-              tooltip="Get in touch" 
+              text="Connect with me"
+              tooltip="LinkedIn" 
               press=".onContactMePressed" />
           </uxap:actions>
 
@@ -41,8 +46,15 @@
       </uxap:headerContent>
 
       <uxap:sections>
-        <uxap:ObjectPageSection title="Employment History" titleUppercase="false">
+        <uxap:ObjectPageSection title="Employment" titleUppercase="false">
+          <uxap:subSections>
+            <uxap:ObjectPageSubSection title="Current" titleUppercase="false">
 
+            </uxap:ObjectPageSubSection>
+            <uxap:ObjectPageSubSection title="Previous" titleUppercase="false">
+
+            </uxap:ObjectPageSubSection>
+          </uxap:subSections>
         </uxap:ObjectPageSection>
       </uxap:sections>
 
