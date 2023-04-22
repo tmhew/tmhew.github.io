@@ -23,12 +23,17 @@
                   text="Open to Work" 
                   state="Success" 
                   inverted="true" 
-                  class="sapUiSmallMarginTop sapUiSmallMarginBottom"/>
+                  class="sapUiSmallMargin"/>
                 <m:ObjectStatus 
-                  text="SAP Developer" 
+                  text="SAP Technical Consultant" 
                   state="Information" 
                   inverted="true" 
-                  class="sapUiSmallMarginLeft sapUiSmallMarginTop sapUiSmallMarginBottom"/>
+                  class="sapUiSmallMargin"/>
+                <m:ObjectStatus 
+                  text="Indie Developer" 
+                  state="Information" 
+                  inverted="true" 
+                  class="sapUiSmallMargin"/>
               </m:HBox>
             </m:VBox>
           </m:HBox>
