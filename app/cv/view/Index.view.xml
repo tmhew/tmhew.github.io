@@ -11,13 +11,13 @@
       <uxap:headerTitle>
         <uxap:ObjectPageDynamicHeaderTitle>
           <uxap:expandedHeading>
-            <m:Title text="Tau Ming Hew" wrapping="true" />
+            <m:Title text="Tau Ming, Hew" wrapping="true" />
           </uxap:expandedHeading>
 
           <uxap:snappedHeading>
             <m:HBox>
               <m:VBox>
-                <m:Title text="Tau Ming" wrapping="true" />
+                <m:Title text="Tau Ming, Hew" wrapping="true" />
                 <m:ObjectStatus text="Open to Work" state="Success" inverted="true"/>
               </m:VBox>
             </m:HBox>
@@ -27,8 +27,7 @@
             <m:Button
               type="Emphasized"
               icon="sap-icon://business-card" 
-              text="Get in touch" 
-              tooltip="Contact me" 
+              tooltip="Get in touch" 
               press=".onContactMePressed" />
           </uxap:actions>
 
@@ -41,10 +40,16 @@
         </m:FlexBox>
       </uxap:headerContent>
 
+      <uxap:sections>
+        <uxap:ObjectPageSection title="Employment History" titleUppercase="false">
+
+        </uxap:ObjectPageSection>
+      </uxap:sections>
+
       <uxap:footer>
         <m:OverflowToolbar>
+          <m:Button icon="sap-icon://syntax" tooltip="Source code" press=".onSourceCodeButtonPressed" />
           <m:ToolbarSpacer/>
-          <m:Button icon="sap-icon://syntax" tooltip="Source" press=".onSourceCodeButtonPressed" />
           <m:Button icon="sap-icon://dark-mode" tooltip="Theme" press=".onThemeButtonPressed" />
         </m:OverflowToolbar>
       </uxap:footer>
