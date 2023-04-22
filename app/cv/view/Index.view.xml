@@ -44,7 +44,7 @@
 
       <uxap:headerContent>
         <m:FlexBox wrap="Wrap" fitContainer="true">
-          <m:Avatar initials="HTM" class="sapUiMediumMarginEnd sapUiSmallMarginBottom" displaySize="L"/>
+
         </m:FlexBox>
       </uxap:headerContent>
 
