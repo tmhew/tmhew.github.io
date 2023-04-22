@@ -49,10 +49,10 @@
         <uxap:ObjectPageSection title="Employment" titleUppercase="false">
           <uxap:subSections>
             <uxap:ObjectPageSubSection title="Current" titleUppercase="false">
-
+              <m:Label text="Utegration" />
             </uxap:ObjectPageSubSection>
             <uxap:ObjectPageSubSection title="Previous" titleUppercase="false">
-
+              <m:Label text="Bluefin" />
             </uxap:ObjectPageSubSection>
           </uxap:subSections>
         </uxap:ObjectPageSection>
