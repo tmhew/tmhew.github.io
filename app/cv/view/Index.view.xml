@@ -53,7 +53,11 @@
 					</m:HBox>
           <m:HBox class="sapUiTinyMarginBottom">
 						<core:Icon src="sap-icon://map"/>
-						<m:Link text=" Houston, TX" class="sapUiSmallMarginBegin"/>
+						<m:Link 
+              class="sapUiSmallMarginBegin"
+              text=" Houston, TX" 
+              target="_blank"
+              href="https://goo.gl/maps/SPDy8azNTBmQURoz5" />
 					</m:HBox>
         </m:VBox>
 
