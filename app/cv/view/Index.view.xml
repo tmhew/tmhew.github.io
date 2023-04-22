@@ -82,7 +82,7 @@
       <m:OverflowToolbar>
         <m:Button icon="sap-icon://syntax" tooltip="Source code" press=".onSourceCodeButtonPressed" />
         <m:ToolbarSpacer/>
-        <m:Button icon="sap-icon://{view>themeMode}-mode" tooltip="Theme" press=".onThemeButtonPressed" />
+        <m:Button icon="sap-icon://{view>/themeMode}-mode" tooltip="Theme" press=".onThemeButtonPressed" />
       </m:OverflowToolbar>
     </uxap:footer>
   </uxap:ObjectPageLayout>
