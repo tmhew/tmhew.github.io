@@ -18,16 +18,18 @@
           <m:HBox>
             <m:VBox>
               <m:Title text="Tau Ming, Hew" wrapping="true" />
-              <m:ObjectStatus 
-                text="Open to Work" 
-                state="Success" 
-                inverted="true" 
-                class="sapUiSmallMarginTop sapUiSmallMarginBottom"/>
+              <m:HBox>
                 <m:ObjectStatus 
-                text="SAP Developer" 
-                state="Information" 
-                inverted="true" 
-                class="sapUiSmallMarginTop sapUiSmallMarginBottom"/>
+                  text="Open to Work" 
+                  state="Success" 
+                  inverted="true" 
+                  class="sapUiSmallMarginTop sapUiSmallMarginBottom"/>
+                <m:ObjectStatus 
+                  text="SAP Developer" 
+                  state="Information" 
+                  inverted="true" 
+                  class="sapUiSmallMarginTop sapUiSmallMarginBottom"/>
+              </m:HBox>
             </m:VBox>
           </m:HBox>
         </uxap:snappedHeading>
