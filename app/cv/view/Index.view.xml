@@ -7,9 +7,7 @@
   
   <uxap:ObjectPageLayout
     showTitleInHeaderContent="true"
-    upperCaseAnchorBar="false"
-    showFooter="true"
-    subSectionLayout="TitleOnLeft">
+    upperCaseAnchorBar="false">
     <uxap:headerTitle>
       <uxap:ObjectPageDynamicHeaderTitle>
         <uxap:expandedHeading>
