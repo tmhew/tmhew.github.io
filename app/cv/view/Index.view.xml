@@ -11,25 +11,37 @@
       <uxap:headerTitle>
         <uxap:ObjectPageDynamicHeaderTitle>
           <uxap:expandedHeading>
+            <m:Title text="Tau Ming Hew" wrapping="true" />
+          </uxap:expandedHeading>
+
+          <uxap:snappedHeading>
             <m:HBox>
               <m:VBox>
-                <m:Title text="Tau Ming Hew" wrapping="true" />
-                <m:Label text="丘道明" wrapping="true" /> 
+                <m:Avatar initials="道明" class="sapUiSmallMarginEnd" />
+              </m:VBox>
+              <m:VBox>
+                <m:Title text="Tau Ming" wrapping="true" />
               </m:VBox>
             </m:HBox>
-          </uxap:expandedHeading>
+          </uxap:snappedHeading>
 
           <uxap:actions>
             <m:Button icon="sap-icon://business-card" tooltip="Contact me" press=".onContactMePressed" />
-            <m:Button icon="sap-icon://dark-mode" tooltip="Theme" press=".onThemeButtonPressed" />
           </uxap:actions>
         </uxap:ObjectPageDynamicHeaderTitle>
       </uxap:headerTitle>
+
+      <uxap:headerContent>
+        <m:FlexBox wrap="Wrap" fitContainer="true">
+          <m:Avatar initials="丘道明" class="sapUiMediumMarginEnd sapUiSmallMarginBottom" displaySize="L"/>
+        </m:FlexBox>
+      </uxap:headerContent>
 
       <uxap:footer>
         <m:OverflowToolbar>
           <m:ToolbarSpacer/>
           <m:Button icon="sap-icon://syntax" tooltip="Source" press=".onSourceCodeButtonPressed" />
+          <m:Button icon="sap-icon://dark-mode" tooltip="Theme" press=".onThemeButtonPressed" />
         </m:OverflowToolbar>
       </uxap:footer>
     </uxap:ObjectPageLayout>
