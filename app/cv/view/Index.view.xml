@@ -5,67 +5,65 @@
   xmlns:m="sap.m"
   xmlns:uxap="sap.uxap">
   
-  <m:Shell>
-    <uxap:ObjectPageLayout
-      showTitleInHeaderContent="true"
-      upperCaseAnchorBar="false"
-      showFooter="true"
-      subSectionLayout="TitleOnLeft">
-      <uxap:headerTitle>
-        <uxap:ObjectPageDynamicHeaderTitle>
-          <uxap:expandedHeading>
-            <m:Title text="Tau Ming, Hew" wrapping="true" />
-          </uxap:expandedHeading>
+  <uxap:ObjectPageLayout
+    showTitleInHeaderContent="true"
+    upperCaseAnchorBar="false"
+    showFooter="true"
+    subSectionLayout="TitleOnLeft">
+    <uxap:headerTitle>
+      <uxap:ObjectPageDynamicHeaderTitle>
+        <uxap:expandedHeading>
+          <m:Title text="Tau Ming, Hew" wrapping="true" />
+        </uxap:expandedHeading>
 
-          <uxap:snappedHeading>
-            <m:HBox>
-              <m:VBox>
-                <m:Title text="Tau Ming, Hew" wrapping="true" />
-                <m:ObjectStatus 
-                  text="Open to Work" 
-                  state="Success" 
-                  inverted="true" 
-                  class="sapUiSmallMarginBottom"/>
-              </m:VBox>
-            </m:HBox>
-          </uxap:snappedHeading>
+        <uxap:snappedHeading>
+          <m:HBox>
+            <m:VBox>
+              <m:Title text="Tau Ming, Hew" wrapping="true" />
+              <m:ObjectStatus 
+                text="Open to Work" 
+                state="Success" 
+                inverted="true" 
+                class="sapUiSmallMarginBottom"/>
+            </m:VBox>
+          </m:HBox>
+        </uxap:snappedHeading>
 
-          <uxap:actions>
-            <m:Button
-              type="Emphasized"
-              icon="sap-icon://business-card" 
-              text="Connect with me"
-              tooltip="LinkedIn" 
-              press=".onContactMePressed" />
-          </uxap:actions>
+        <uxap:actions>
+          <m:Button
+            type="Emphasized"
+            icon="sap-icon://business-card" 
+            text="Connect with me"
+            tooltip="LinkedIn" 
+            press=".onContactMePressed" />
+        </uxap:actions>
 
-        </uxap:ObjectPageDynamicHeaderTitle>
-      </uxap:headerTitle>
+      </uxap:ObjectPageDynamicHeaderTitle>
+    </uxap:headerTitle>
 
-      <uxap:headerContent>
-        <m:FlexBox wrap="Wrap" fitContainer="true">
+    <uxap:headerContent>
+      <m:FlexBox wrap="Wrap" fitContainer="true">
 
-        </m:FlexBox>
-      </uxap:headerContent>
+      </m:FlexBox>
+    </uxap:headerContent>
 
-      <uxap:sections>
-        <uxap:ObjectPageSection title="Employment" id="employment" titleUppercase="false">
-          <uxap:subSections>
-            <uxap:ObjectPageSubSection title="Current" id="employmentCurrent" titleUppercase="false">
-              <m:Label text="Utegration" id="utegration" />
-            </uxap:ObjectPageSubSection>
-          </uxap:subSections>
-        </uxap:ObjectPageSection>
-      </uxap:sections>
+    <uxap:sections>
+      <uxap:ObjectPageSection title="Employment" id="employment" titleUppercase="false">
+        <uxap:subSections>
+          <uxap:ObjectPageSubSection title="Current" id="employmentCurrent" titleUppercase="false">
+            <m:Label text="Utegration" id="utegration" />
+          </uxap:ObjectPageSubSection>
+        </uxap:subSections>
+      </uxap:ObjectPageSection>
+    </uxap:sections>
 
-      <uxap:footer>
-        <m:OverflowToolbar>
-          <m:Button icon="sap-icon://syntax" tooltip="Source code" press=".onSourceCodeButtonPressed" />
-          <m:ToolbarSpacer/>
-          <m:Button icon="sap-icon://dark-mode" tooltip="Theme" press=".onThemeButtonPressed" />
-        </m:OverflowToolbar>
-      </uxap:footer>
-    </uxap:ObjectPageLayout>
-  </m:Shell>
+    <uxap:footer>
+      <m:OverflowToolbar>
+        <m:Button icon="sap-icon://syntax" tooltip="Source code" press=".onSourceCodeButtonPressed" />
+        <m:ToolbarSpacer/>
+        <m:Button icon="sap-icon://dark-mode" tooltip="Theme" press=".onThemeButtonPressed" />
+      </m:OverflowToolbar>
+    </uxap:footer>
+  </uxap:ObjectPageLayout>
   
 </mvc:View>
