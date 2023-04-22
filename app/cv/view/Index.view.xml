@@ -7,6 +7,7 @@
   
   <m:Shell>
     <uxap:ObjectPageLayout
+      showTitleInHeaderContent="true"
       showFooter="true">
       <uxap:headerTitle>
         <uxap:ObjectPageDynamicHeaderTitle>
