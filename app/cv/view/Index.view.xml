@@ -56,6 +56,11 @@
 						<m:Link text=" Houston, TX" class="sapUiSmallMarginBegin"/>
 					</m:HBox>
         </m:VBox>
+
+        <m:VBox class="sapUiLargeMarginEnd sapUiSmallMarginBottom">
+					<m:Title text="Availability" class="sapUiTinyMarginBottom" />
+					<m:ObjectStatus text="Open to Work" state="Success" class="sapMObjectStatusLarge"/>
+				</m:VBox>
       </m:FlexBox>
     </uxap:headerContent>
 
