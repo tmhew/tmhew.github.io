@@ -6,8 +6,6 @@
   xmlns:uxap="sap.uxap">
   
   <uxap:ObjectPageLayout
-    showTitleInHeaderContent="true"
-    upperCaseAnchorBar="false"
     showFooter="true">
     <uxap:headerTitle>
       <uxap:ObjectPageDynamicHeaderTitle>
@@ -43,18 +41,6 @@
     <uxap:headerContent>
       <m:ObjectAttribute title="" text="Excels in using complex and expensive tools to do simple tasks."/>
     </uxap:headerContent>
-
-    <uxap:sections>
-      <uxap:ObjectPageSection title="Employment" id="employment" titleUppercase="false">
-        <uxap:subSections>
-          <uxap:ObjectPageSubSection title="Current" id="employmentCurrent" titleUppercase="false">
-            <uxap:blocks>
-              <m:Label text="Utegration" id="utegration" />
-            </uxap:blocks>
-          </uxap:ObjectPageSubSection>
-        </uxap:subSections>
-      </uxap:ObjectPageSection>
-    </uxap:sections>
 
     <uxap:footer>
       <m:OverflowToolbar>
