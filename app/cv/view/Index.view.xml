@@ -36,8 +36,8 @@
 
       <uxap:footer>
         <m:OverflowToolbar>
-          <m:ToolbarSpacer/>
           <m:Button icon="sap-icon://business-card" tooltip="Contact me" press=".onContactMePressed" />
+          <m:ToolbarSpacer/>
           <m:Button icon="sap-icon://syntax" tooltip="Source" press=".onSourceCodeButtonPressed" />
           <m:Button icon="sap-icon://dark-mode" tooltip="Theme" press=".onThemeButtonPressed" />
         </m:OverflowToolbar>
