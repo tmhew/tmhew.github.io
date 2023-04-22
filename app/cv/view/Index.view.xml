@@ -23,6 +23,11 @@
                 state="Success" 
                 inverted="true" 
                 class="sapUiSmallMarginTop sapUiSmallMarginBottom"/>
+                <m:ObjectStatus 
+                text="SAP Developer" 
+                state="Information" 
+                inverted="true" 
+                class="sapUiSmallMarginTop sapUiSmallMarginBottom"/>
             </m:VBox>
           </m:HBox>
         </uxap:snappedHeading>
