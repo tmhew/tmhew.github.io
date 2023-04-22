@@ -17,7 +17,7 @@
           <uxap:snappedHeading>
             <m:HBox>
               <m:VBox>
-                <m:Avatar initials="道明" class="sapUiSmallMarginEnd" />
+                <m:Avatar initials="TM" class="sapUiSmallMarginEnd" />
               </m:VBox>
               <m:VBox>
                 <m:Title text="Tau Ming" wrapping="true" />
@@ -25,21 +25,19 @@
             </m:HBox>
           </uxap:snappedHeading>
 
-          <uxap:actions>
-            <m:Button icon="sap-icon://business-card" tooltip="Contact me" press=".onContactMePressed" />
-          </uxap:actions>
         </uxap:ObjectPageDynamicHeaderTitle>
       </uxap:headerTitle>
 
       <uxap:headerContent>
         <m:FlexBox wrap="Wrap" fitContainer="true">
-          <m:Avatar initials="丘道明" class="sapUiMediumMarginEnd sapUiSmallMarginBottom" displaySize="L"/>
+          <m:Avatar initials="HTM" class="sapUiMediumMarginEnd sapUiSmallMarginBottom" displaySize="L"/>
         </m:FlexBox>
       </uxap:headerContent>
 
       <uxap:footer>
         <m:OverflowToolbar>
           <m:ToolbarSpacer/>
+          <m:Button icon="sap-icon://business-card" tooltip="Contact me" press=".onContactMePressed" />
           <m:Button icon="sap-icon://syntax" tooltip="Source" press=".onSourceCodeButtonPressed" />
           <m:Button icon="sap-icon://dark-mode" tooltip="Theme" press=".onThemeButtonPressed" />
         </m:OverflowToolbar>
