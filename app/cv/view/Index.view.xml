@@ -9,7 +9,8 @@
     <uxap:ObjectPageLayout
       showTitleInHeaderContent="true"
       upperCaseAnchorBar="false"
-      showFooter="true">
+      showFooter="true"
+      subSectionLayout="TitleOnLeft">
       <uxap:headerTitle>
         <uxap:ObjectPageDynamicHeaderTitle>
           <uxap:expandedHeading>
@@ -48,12 +49,12 @@
       </uxap:headerContent>
 
       <uxap:sections>
-        <uxap:ObjectPageSection title="Employment" titleUppercase="false">
+        <uxap:ObjectPageSection title="Employment" id="employment" titleUppercase="false">
           <uxap:subSections>
-            <uxap:ObjectPageSubSection title="Current" titleUppercase="false">
+            <uxap:ObjectPageSubSection title="Current" id="employmentCurrent" titleUppercase="false">
               <m:Label text="Utegration" />
             </uxap:ObjectPageSubSection>
-            <uxap:ObjectPageSubSection title="Previous" titleUppercase="false">
+            <uxap:ObjectPageSubSection title="Previous" id="employmentPrevious" titleUppercase="false">
               <m:Label text="Bluefin" />
             </uxap:ObjectPageSubSection>
           </uxap:subSections>
