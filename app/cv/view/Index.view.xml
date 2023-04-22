@@ -18,7 +18,7 @@
             <m:HBox>
               <m:VBox>
                 <m:Title text="Tau Ming" wrapping="true" />
-                <m:ObjectStatus text="Open to Work" state="Success"/>
+                <m:ObjectStatus text="Open to Work" state="Success" inverted="true"/>
               </m:VBox>
             </m:HBox>
           </uxap:snappedHeading>
