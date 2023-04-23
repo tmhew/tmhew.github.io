@@ -17,6 +17,9 @@
         <uxap:snappedHeading>
           <m:HBox>
             <m:VBox>
+							<m:Avatar src="sap-icon://employee" class="sapUiSmallMarginEnd" />
+						</m:VBox>
+            <m:VBox>
               <m:Title text="Tau Ming, Hew" wrapping="true" />
               <m:HBox>
                 <m:ObjectStatus 
@@ -53,6 +56,8 @@
 
     <uxap:headerContent>
       <m:FlexBox wrap="Wrap" fitContainer="true">
+        <m:Avatar src="sap-icon://employee" class="sapUiMediumMarginEnd sapUiSmallMarginBottom" displaySize="L"/>
+
         <m:VBox class="sapUiLargeMarginEnd sapUiSmallMarginBottom">
           <m:Title text="Personal Information" class="sapUiTinyMarginBottom" />
           <m:HBox class="sapUiTinyMarginBottom">
@@ -87,7 +92,7 @@
 
     <uxap:sections>
       <uxap:ObjectPageSection titleUppercase="false" title="Education">
-        <uxap:subSection>
+        <uxap:subSections>
           <uxap:ObjectPageSubSection titleUppercase="false" title="Multimedia University">
             <uxap:blocks>
               <m:Link 
@@ -96,7 +101,7 @@
                 href="https://osc.mmu.edu.my/psc/csprd/EMPLOYEE/HRMS/s/WEBLIB_N_ROG.WEBSERVICE.FieldFormula.IScript_info?convocation=2006&id=31303231313338383331&encoded=Y" />
             </uxap:blocks>
           </uxap:ObjectPageSubSection>
-        </uxap:subSection>
+        </uxap:subSections>
       </uxap:ObjectPageSection>
     </uxap:sections>
 
