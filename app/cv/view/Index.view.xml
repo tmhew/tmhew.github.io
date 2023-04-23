@@ -57,11 +57,11 @@
           <m:Title text="Personal Information" class="sapUiTinyMarginBottom" />
           <m:HBox class="sapUiTinyMarginBottom">
 						<m:Label text="First name:" class="sapUiTinyMarginEnd"/>
-						<m:Text text=" Tau Ming (道明)"/>
+						<m:Text text=" Tau Ming"/>
 					</m:HBox>
           <m:HBox class="sapUiTinyMarginBottom">
 						<m:Label text="Last name:" class="sapUiTinyMarginEnd"/>
-						<m:Text text=" Hew (丘)"/>
+						<m:Text text=" Hew"/>
 					</m:HBox>
           <m:HBox class="sapUiTinyMarginBottom">
 						<core:Icon src="sap-icon://map"/>
@@ -84,6 +84,21 @@
 				</m:VBox>
       </m:FlexBox>
     </uxap:headerContent>
+
+    <uxap:sections>
+      <uxap:ObjectPageSection titleUppercase="false" title="Education">
+        <uxap:subSection>
+          <uxap:ObjectPageSubSection titleUppercase="false" title="Multimedia University">
+            <uxap:blocks>
+              <m:Link 
+                text=" Bachelor of Information Technology (Honours) Software Engineering" 
+                target="_blank"
+                href="https://osc.mmu.edu.my/psc/csprd/EMPLOYEE/HRMS/s/WEBLIB_N_ROG.WEBSERVICE.FieldFormula.IScript_info?convocation=2006&id=31303231313338383331&encoded=Y" />
+            </uxap:blocks>
+          </uxap:ObjectPageSubSection>
+        </uxap:subSection>
+      </uxap:ObjectPageSection>
+    </uxap:sections>
 
     <uxap:footer>
       <m:OverflowToolbar>
