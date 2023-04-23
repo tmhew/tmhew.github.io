@@ -28,7 +28,7 @@ sap.ui.define([
     }
 
     _Controller.prototype.onSourceCodeButtonPressed = function () {
-        window.open('https://github.com/tmhew/tmhew.github.io', '_blank')
+        window.open('https://github.dev/tmhew/tmhew.github.io', '_blank')
     }
 
     _Controller.prototype.onContactMePressed = function () {
