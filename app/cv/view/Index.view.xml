@@ -90,21 +90,6 @@
       </m:FlexBox>
     </uxap:headerContent>
 
-    <uxap:sections>
-      <uxap:ObjectPageSection titleUppercase="false" title="Education">
-        <uxap:subSections>
-          <uxap:ObjectPageSubSection titleUppercase="false" title="Multimedia University">
-            <uxap:blocks>
-              <m:Link 
-                text=" Bachelor of Information Technology (Honours) Software Engineering" 
-                target="_blank"
-                href="https%3A%2F%2Fosc.mmu.edu.my%2Fpsc%2Fcsprd%2FEMPLOYEE%2FHRMS%2Fs%2FWEBLIB_N_ROG.WEBSERVICE.FieldFormula.IScript_info%3Fconvocation%3D2006%26id%3D31303231313338383331%26encoded%3DY" />
-            </uxap:blocks>
-          </uxap:ObjectPageSubSection>
-        </uxap:subSections>
-      </uxap:ObjectPageSection>
-    </uxap:sections>
-
     <uxap:footer>
       <m:OverflowToolbar>
         <m:Button icon="sap-icon://syntax" tooltip="Source code" press=".onSourceCodeButtonPressed" />
