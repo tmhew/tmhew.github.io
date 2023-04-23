@@ -57,11 +57,11 @@
           <m:Title text="Personal Information" class="sapUiTinyMarginBottom" />
           <m:HBox class="sapUiTinyMarginBottom">
 						<m:Label text="First name:" class="sapUiTinyMarginEnd"/>
-						<m:Text text=" Tau Ming"/>
+						<m:Text text=" Tau Ming (道明)"/>
 					</m:HBox>
           <m:HBox class="sapUiTinyMarginBottom">
 						<m:Label text="Last name:" class="sapUiTinyMarginEnd"/>
-						<m:Text text=" Hew"/>
+						<m:Text text=" Hew (丘)"/>
 					</m:HBox>
           <m:HBox class="sapUiTinyMarginBottom">
 						<core:Icon src="sap-icon://map"/>
