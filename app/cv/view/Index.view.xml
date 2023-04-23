@@ -17,7 +17,7 @@
         <uxap:snappedHeading>
           <m:HBox>
             <m:VBox>
-							<m:Avatar src="sap-icon://employee" class="sapUiSmallMarginEnd" />
+							<m:Avatar src="sap-icon://Netweaver-business-client" class="sapUiSmallMarginEnd" />
 						</m:VBox>
             <m:VBox>
               <m:Title text="Tau Ming, Hew" wrapping="true" />
@@ -56,7 +56,7 @@
 
     <uxap:headerContent>
       <m:FlexBox wrap="Wrap" fitContainer="true">
-        <m:Avatar src="sap-icon://employee" class="sapUiMediumMarginEnd sapUiSmallMarginBottom" displaySize="L"/>
+        <m:Avatar src="sap-icon://Netweaver-business-client" class="sapUiMediumMarginEnd sapUiSmallMarginBottom" displaySize="L"/>
 
         <m:VBox class="sapUiLargeMarginEnd sapUiSmallMarginBottom">
           <m:Title text="Personal Information" class="sapUiTinyMarginBottom" />
