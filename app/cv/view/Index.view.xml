@@ -98,7 +98,7 @@
               <m:Link 
                 text=" Bachelor of Information Technology (Honours) Software Engineering" 
                 target="_blank"
-                href="https://osc.mmu.edu.my/psc/csprd/EMPLOYEE/HRMS/s/WEBLIB_N_ROG.WEBSERVICE.FieldFormula.IScript_info?convocation=2006&id=31303231313338383331&encoded=Y" />
+                href="https%3A%2F%2Fosc.mmu.edu.my%2Fpsc%2Fcsprd%2FEMPLOYEE%2FHRMS%2Fs%2FWEBLIB_N_ROG.WEBSERVICE.FieldFormula.IScript_info%3Fconvocation%3D2006%26id%3D31303231313338383331%26encoded%3DY" />
             </uxap:blocks>
           </uxap:ObjectPageSubSection>
         </uxap:subSections>
