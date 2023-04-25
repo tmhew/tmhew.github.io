@@ -80,7 +80,7 @@
 
         <m:VBox class="sapUiLargeMarginEnd sapUiSmallMarginBottom">
 					<m:Title text="About Me" class="sapUiTinyMarginBottom" />
-					<m:Text  width="320px" text="Excels in using complex and expensive tools to do simple tasks." />
+					<m:Text  width="320px" text="I excel in using complex and expensive tools to do simple tasks." />
 				</m:VBox>
 
         <m:VBox class="sapUiLargeMarginEnd sapUiSmallMarginBottom">
