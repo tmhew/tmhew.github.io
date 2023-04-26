@@ -113,6 +113,14 @@
                 href="https://osc.mmu.edu.my/psc/csprd/EMPLOYEE/HRMS/s/WEBLIB_N_ROG.WEBSERVICE.FieldFormula.IScript_info?convocation=2006&amp;id=31303231313338383331&amp;encoded=Y" />
             </blocks>
           </ObjectPageSubSection>
+          <ObjectPageSubSection titleUppercase="false" title="Multimedia University">
+            <blocks>
+              <m:Link 
+                text="Bachelor of Information Technology (Honours) Software Engineering"
+                target="_blank"
+                href="https://osc.mmu.edu.my/psc/csprd/EMPLOYEE/HRMS/s/WEBLIB_N_ROG.WEBSERVICE.FieldFormula.IScript_info?convocation=2006&amp;id=31303231313338383331&amp;encoded=Y" />
+            </blocks>
+          </ObjectPageSubSection>
         </subSections>
       </ObjectPageSection>
     </sections>
