@@ -6,7 +6,7 @@
   xmlns:m="sap.m"
   xmlns:core="sap.ui.core">
   
-  <ObjectPageLayout showFooter="true">
+  <ObjectPageLayout showFooter="true" upperCaseAnchorBar="false">
     <headerTitle>
       <ObjectPageDynamicHeaderTitle>
         <expandedHeading>
@@ -86,6 +86,15 @@
 
     <sections>
       <ObjectPageSection titleUppercase="false" title="About Me"> 
+        <subSections>
+          <ObjectPageSubSection>
+            <blocks>
+              <m:Text text="I excel in using complex and expensive tools to do simple tasks." />
+            </blocks>
+          </ObjectPageSubSection>
+        </subSections>
+      </ObjectPageSection>
+      <ObjectPageSection titleUppercase="false" title="About Me Again"> 
         <subSections>
           <ObjectPageSubSection>
             <blocks>
