@@ -1,20 +1,20 @@
 <mvc:View
   height="100%"
   controllerName="com.tmhew.app.cv.controller.Index"
+  xmlns="sap.uxap"
   xmlns:mvc="sap.ui.core.mvc"
   xmlns:m="sap.m"
-  xmlns:uxap="sap.uxap"
   xmlns:core="sap.ui.core">
   
-  <uxap:ObjectPageLayout
+  <ObjectPageLayout
     showFooter="true">
-    <uxap:headerTitle>
-      <uxap:ObjectPageDynamicHeaderTitle>
-        <uxap:expandedHeading>
+    <headerTitle>
+      <ObjectPageDynamicHeaderTitle>
+        <expandedHeading>
           <m:Title text="Tau Ming, Hew" wrapping="true" />
-        </uxap:expandedHeading>
+        </expandedHeading>
 
-        <uxap:snappedHeading>
+        <snappedHeading>
           <m:HBox>
             <m:VBox>
 							<m:Avatar src="sap-icon://Netweaver-business-client" class="sapUiSmallMarginEnd" />
@@ -40,21 +40,21 @@
               </m:HBox>
             </m:VBox>
           </m:HBox>
-        </uxap:snappedHeading>
+        </snappedHeading>
 
-        <uxap:actions>
+        <actions>
           <m:Button
             type="Emphasized"
             icon="sap-icon://business-card" 
             text="Connect with me"
             tooltip="LinkedIn" 
             press=".onContactMePressed" />
-        </uxap:actions>
+        </actions>
 
-      </uxap:ObjectPageDynamicHeaderTitle>
-    </uxap:headerTitle>
+      </ObjectPageDynamicHeaderTitle>
+    </headerTitle>
 
-    <uxap:headerContent>
+    <headerContent>
       <m:FlexBox wrap="Wrap" fitContainer="true">
         <m:Avatar src="sap-icon://Netweaver-business-client" class="sapUiMediumMarginEnd sapUiSmallMarginBottom" displaySize="L"/>
 
@@ -79,24 +79,34 @@
         </m:VBox>
 
         <m:VBox class="sapUiLargeMarginEnd sapUiSmallMarginBottom">
-					<m:Title text="About Me" class="sapUiTinyMarginBottom" />
-					<m:Text  width="320px" text="I excel in using complex and expensive tools to do simple tasks." />
-				</m:VBox>
-
-        <m:VBox class="sapUiLargeMarginEnd sapUiSmallMarginBottom">
 					<m:Title text="Availability" class="sapUiTinyMarginBottom" />
 					<m:ObjectStatus text="Open to Work" state="Success" class="sapMObjectStatusLarge"/>
 				</m:VBox>
       </m:FlexBox>
-    </uxap:headerContent>
+    </headerContent>
 
-    <uxap:footer>
+    <sections>
+      <ObjectPageSection titleUppercase="false", title="About Me"> 
+        <subSections>
+          <ObjectPageSubSection>
+            <blocks>
+              <m:Text text="I excel in using complex and expensive tools to do simple tasks." />
+            </blocks>
+          </ObjectPageSubSection>
+        </subSections>
+      </ObjectPageSection>
+    </sections>
+
+    <footer>
       <m:OverflowToolbar>
         <m:Button icon="sap-icon://syntax" tooltip="Source code" press=".onSourceCodeButtonPressed" />
         <m:ToolbarSpacer/>
-        <m:Button icon="sap-icon://{= ${view>/themeMode} === 'light' ? 'dark' : 'light'}-mode" tooltip="Theme" press=".onThemeButtonPressed" />
+        <m:Button 
+          icon="sap-icon://{= ${view>/themeMode} === 'light' ? 'dark' : 'light'}-mode" 
+          tooltip="Theme" 
+          press=".onThemeButtonPressed" />
       </m:OverflowToolbar>
-    </uxap:footer>
-  </uxap:ObjectPageLayout>
+    </footer>
+  </ObjectPageLayout>
   
 </mvc:View>
