@@ -96,7 +96,22 @@
       </ObjectPageSection>
       <ObjectPageSection titleUppercase="false" title="Employment History"> 
         <subSections>
-          <ObjectPageSubSection>
+          <ObjectPageSubSection titleUppercase="false" title="Utegration">
+            <blocks>
+              <m:Text text="TBD" />
+            </blocks>
+          </ObjectPageSubSection>
+          <ObjectPageSubSection titleUppercase="false" title="Bluefin Solutions">
+            <blocks>
+              <m:Text text="TBD" />
+            </blocks>
+          </ObjectPageSubSection>
+          <ObjectPageSubSection titleUppercase="false" title="2C change">
+            <blocks>
+              <m:Text text="TBD" />
+            </blocks>
+          </ObjectPageSubSection>
+          <ObjectPageSubSection titleUppercase="false" title="Axon Solutions">
             <blocks>
               <m:Text text="TBD" />
             </blocks>
