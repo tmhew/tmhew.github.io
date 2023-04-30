@@ -14,6 +14,14 @@ sap.ui.predefine('com/tmhew/control/Test', [
     return _Control
 })
 
+sap.ui.predefine('com/tmhew/controller/Index', [
+    'sap/ui/core/mvc/Controller'
+], (Controller) => {
+    const _Controller = Controller.extend('com.tmhew.controller.Index')
+
+    return _Controller
+})
+
 sap.ui.define([
     'sap/ui/core/mvc/XMLView',
     'sap/ui/core/mvc/Controller'
