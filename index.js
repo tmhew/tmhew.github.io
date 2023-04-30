@@ -18,11 +18,9 @@ sap.ui.predefine('com/tmhew/controller/Index.controller', [
         let currentThemeMode = this._viewModel.getProperty('/themeMode')
         currentThemeMode = currentThemeMode === 'light' ? 'dark' : 'light'
 
-        if (currentThemeMode === 'light') {
-            sap.ui.getCore().applyTheme('sap_horizon')
-        } else {
-            sap.ui.getCore().applyTheme('sap_horizon_dark')
-        }
+        sap.ui.getCore().applyTheme(
+            currentThemeMode === 'light' ? 'sap_horizon' : 'sap_horizon_dark'
+        )
 
         this._viewModel.setProperty('/themeMode', currentThemeMode)
     }
