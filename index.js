@@ -30,7 +30,7 @@ sap.ui.predefine('com/tmhew/controller/Index.controller', [
     }
 
     _Controller.prototype.onSourceCodePressed = function () {
-        window.open('https://github.com/tmhew/tmhew.github.io', '_blank')
+        window.open('https://github.dev/tmhew/tmhew.github.io', '_blank')
     }
 
     return _Controller
