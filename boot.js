@@ -1,7 +1,10 @@
 window['sap-ui-config'] = {
     'compatVersion': 'edge',
     'async': true,
-    'libs': 'sap.m, sap.uxap',
+    'libs': [
+        'sap.m',
+        'sap.uxap'
+    ].join(','),
     'resourceroots': {
         'com.tmhew': './'
     },
