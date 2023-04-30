@@ -1,10 +1,14 @@
 window['sap-ui-config'] = {
     'compatVersion': 'edge',
     'async': true,
-    'oninit': 'module:sap/ui/core/ComponentSupport',
+    'libs': [
+        'sap.m',
+        'sap.uxap'
+    ],
     'resourceroots': {
         'com.tmhew': './'
     },
+    'oninit': 'module:com/tmhew/index',
     'theme': (() => {
         try {
             return window.matchMedia('(prefers-color-scheme: dark)').matches
