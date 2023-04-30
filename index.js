@@ -1,6 +1,7 @@
 sap.ui.predefine('com/tmhew/controller/Index.controller', [
-    'sap/ui/core/mvc/Controller'
-], (Controller) => {
+    'sap/ui/core/mvc/Controller',
+    'sap/ui/model/json/JSONModel'
+], (Controller, JSONModel) => {
     const _Controller = Controller.extend('com.tmhew.controller.Index')
 
     _Controller.prototype.onInit = function () {
