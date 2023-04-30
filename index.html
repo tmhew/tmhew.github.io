@@ -25,7 +25,102 @@
       xmlns="sap.uxap"
       xmlns:tm="com.tmhew.control">
       
-      <tm:Test />
+      <ObjectPageLayout showFooter="true" upperCaseAnchorBar="false">
+        <headerTitle>
+          <ObjectPageDynamicHeaderTitle>
+            <expandedHeading>
+              <m:Title text="Tau Ming, Hew" wrapping="true" />
+            </expandedHeading>
+    
+            <snappedHeading>
+              <m:HBox>
+                <m:VBox>
+                  <m:Avatar src="sap-icon://Netweaver-business-client" class="sapUiSmallMarginEnd" />
+                </m:VBox>
+                <m:VBox>
+                  <m:Title text="Tau Ming, Hew" wrapping="true" />
+                  <m:HBox>
+                    <m:ObjectStatus 
+                      text="Open to Work" 
+                      state="Success" 
+                      inverted="true" 
+                      class="sapUiSmallMarginTopBottom"/>
+                    <m:ObjectStatus 
+                      text="SAP Consultant" 
+                      state="Information" 
+                      inverted="true" 
+                      class="sapUiSmallMarginTopBottom sapUiSmallMarginBegin"/>
+                    <m:ObjectStatus 
+                      text="Indie Developer" 
+                      state="Information" 
+                      inverted="true" 
+                      class="sapUiSmallMarginTopBottom sapUiSmallMarginBegin"/>
+                  </m:HBox>
+                </m:VBox>
+              </m:HBox>
+            </snappedHeading>
+    
+            <actions>
+              <m:Button
+                type="Emphasized"
+                icon="sap-icon://business-card" 
+                text="Connect with me"
+                tooltip="LinkedIn" 
+                press=".onContactMePressed" />
+            </actions>
+    
+          </ObjectPageDynamicHeaderTitle>
+        </headerTitle>
+    
+        <headerContent>
+          <m:FlexBox wrap="Wrap" fitContainer="true">
+            <m:Avatar src="sap-icon://Netweaver-business-client" class="sapUiMediumMarginEnd sapUiSmallMarginBottom" displaySize="L"/>
+    
+            <m:VBox class="sapUiLargeMarginEnd sapUiSmallMarginBottom">
+              <m:Title text="Personal Information" class="sapUiTinyMarginBottom" />
+              <m:HBox class="sapUiTinyMarginBottom">
+                <m:Label text="First name:" class="sapUiTinyMarginEnd"/>
+                <m:Text text=" Tau Ming"/>
+              </m:HBox>
+              <m:HBox class="sapUiTinyMarginBottom">
+                <m:Label text="Last name:" class="sapUiTinyMarginEnd"/>
+                <m:Text text=" Hew"/>
+              </m:HBox>
+              <m:HBox class="sapUiTinyMarginBottom">
+                <core:Icon src="sap-icon://map"/>
+                <m:Link 
+                  class="sapUiSmallMarginBegin"
+                  text=" Houston, TX" 
+                  target="_blank"
+                  href="https://goo.gl/maps/SPDy8azNTBmQURoz5" />
+              </m:HBox>
+            </m:VBox>
+    
+            <m:VBox class="sapUiLargeMarginEnd sapUiSmallMarginBottom">
+              <m:Title text="About Me" class="sapUiTinyMarginBottom" />
+              <m:Text 
+                width="300px" 
+                text="I excel in using complex and expensive tools to do simple tasks." />
+            </m:VBox>
+    
+            <m:VBox class="sapUiLargeMarginEnd sapUiSmallMarginBottom">
+              <m:Title text="Availability" class="sapUiTinyMarginBottom" />
+              <m:ObjectStatus text="Open to Work" state="Success" class="sapMObjectStatusLarge"/>
+            </m:VBox>
+          </m:FlexBox>
+        </headerContent>
+    
+        <footer>
+          <m:OverflowToolbar>
+            <m:Button icon="sap-icon://syntax" tooltip="Source code" press=".onSourceCodeButtonPressed" />
+            <m:ToolbarSpacer/>
+            <m:Button 
+              icon="sap-icon://{= ${view>/themeMode} === 'light' ? 'dark' : 'light'}-mode" 
+              tooltip="Theme" 
+              press=".onThemeButtonPressed" />
+          </m:OverflowToolbar>
+        </footer>
+      </ObjectPageLayout>
 
     </mvc:View>
   </script>
