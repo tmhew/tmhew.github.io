@@ -117,6 +117,10 @@
     
         <footer>
           <m:OverflowToolbar>
+            <m:Button 
+              icon="sap-icon://syntax" 
+              tooltip="Source code" 
+              press=".onSourceCodePressed" />
             <m:ToolbarSpacer/>
             <m:Button 
               icon="sap-icon://{= ${view>/themeMode} === 'light' ? 'dark' : 'light'}-mode" 

@@ -29,6 +29,10 @@ sap.ui.predefine('com/tmhew/controller/Index.controller', [
         window.open('https://www.linkedin.com/in/tau-ming-hew-02820327/', '_blank')
     }
 
+    _Controller.prototype.onSourceCodePressed = function () {
+        window.open('https://github.com/tmhew/tmhew.github.io', '_blank')
+    }
+
     return _Controller
 })
 
