@@ -25,10 +25,6 @@ sap.ui.predefine('com/tmhew/controller/Index.controller', [
         this._viewModel.setProperty('/themeMode', currentThemeMode)
     }
 
-    _Controller.prototype.onSourceCodeButtonPressed = function () {
-        window.open('https://github.dev/tmhew/tmhew.github.io', '_blank')
-    }
-
     _Controller.prototype.onContactMePressed = function () {
         window.open('https://www.linkedin.com/in/tau-ming-hew-02820327/', '_blank')
     }
