@@ -1,36 +1,37 @@
 sap.ui.predefine('com/tmhew/controller/Index.controller', [
     'sap/ui/core/mvc/Controller',
-    'sap/ui/model/json/JSONModel'
-], (Controller, JSONModel) => {
-    const _Controller = Controller.extend('com.tmhew.controller.Index')
+    'sap/ui/model/json/JSONModel',
+    'sap/ui/core/Core'
+], (Controller, JSONModel, Core) => {
+    class _Controller extends Controller {
+        onInit () {
+            const currentTheme = Core.getConfiguration().getTheme()
 
-    _Controller.prototype.onInit = function () {
-        const currentTheme = sap.ui.getCore().getConfiguration().getTheme()
+            this._viewModel = new JSONModel({
+                'themeMode': currentTheme.endsWith('dark') ? 'dark' : 'light'
+            })
 
-        this._viewModel = new JSONModel({
-            'themeMode': currentTheme.endsWith('dark') ? 'dark' : 'light'
-        })
+            this.getView().setModel(this._viewModel, 'view')
+        }
 
-        this.getView().setModel(this._viewModel, 'view')
-    }
+        onThemeButtonPressed () {
+            let currentThemeMode = this._viewModel.getProperty('/themeMode')
+            currentThemeMode = currentThemeMode === 'light' ? 'dark' : 'light'
 
-    _Controller.prototype.onThemeButtonPressed = function () {
-        let currentThemeMode = this._viewModel.getProperty('/themeMode')
-        currentThemeMode = currentThemeMode === 'light' ? 'dark' : 'light'
+            Core.applyTheme(
+                currentThemeMode === 'light' ? 'sap_horizon' : 'sap_horizon_dark'
+            )
 
-        sap.ui.getCore().applyTheme(
-            currentThemeMode === 'light' ? 'sap_horizon' : 'sap_horizon_dark'
-        )
+            this._viewModel.setProperty('/themeMode', currentThemeMode)
+        }
 
-        this._viewModel.setProperty('/themeMode', currentThemeMode)
-    }
+        onContactMePressed () {
+            window.open('https://www.linkedin.com/in/tau-ming-hew-02820327/', '_blank')
+        }
 
-    _Controller.prototype.onContactMePressed = function () {
-        window.open('https://www.linkedin.com/in/tau-ming-hew-02820327/', '_blank')
-    }
-
-    _Controller.prototype.onSourceCodePressed = function () {
-        window.open('https://github.com/tmhew/tmhew.github.io', '_blank')
+        onSourceCodePressed () {
+            window.open('https://github.com/tmhew/tmhew.github.io', '_blank')
+        }
     }
 
     return _Controller
