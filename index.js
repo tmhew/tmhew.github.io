@@ -5,6 +5,7 @@ sap.ui.predefine('com/tmhew/controller/Index.controller', [
 ], (Controller, JSONModel, Core) => {
     class _Controller extends Controller {
         onInit () {
+            console.log(Core)
             const currentTheme = Core.getConfiguration().getTheme()
 
             this._viewModel = new JSONModel({
@@ -44,7 +45,6 @@ sap.ui.define([
     XMLView.create({
         definition: document.getElementById('Index.view.xml').innerHTML
     }).then((indexView) => {
-        console.log(indexView)
         indexView.placeAt('content')  
     })
 })
