@@ -1,12 +1,11 @@
 sap.ui.predefine('com/tmhew/controller/Index.controller', [
     'sap/ui/core/mvc/Controller',
     'sap/ui/model/json/JSONModel',
-    'sap/ui/core/Core'
-], (Controller, JSONModel, Core) => {
+    'sap/ui/core/Theming'
+], (Controller, JSONModel, Theming) => {
     class _Controller extends Controller {
         onInit () {
-            console.log(Core)
-            const currentTheme = Core.getConfiguration().getTheme()
+            const currentTheme = Theming.getTheme()
 
             this._viewModel = new JSONModel({
                 'themeMode': currentTheme.endsWith('dark') ? 'dark' : 'light'
@@ -19,7 +18,7 @@ sap.ui.predefine('com/tmhew/controller/Index.controller', [
             let currentThemeMode = this._viewModel.getProperty('/themeMode')
             currentThemeMode = currentThemeMode === 'light' ? 'dark' : 'light'
 
-            Core.applyTheme(
+            Theming.setTheme(
                 currentThemeMode === 'light' ? 'sap_horizon' : 'sap_horizon_dark'
             )
 
