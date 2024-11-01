@@ -44,5 +44,6 @@ sap.ui.define([
     const indexView = await XMLView.create({
         definition: document.getElementById('Index.view.xml').innerHTML
     })
+    console.log(indexView)
     indexView.placeAt('content')
 })
